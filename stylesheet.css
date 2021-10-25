@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Playball&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Playball&family=Style+Script&display=swap');@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&family=Charmonman:wght@700&family=Playball&family=Style+Script&display=swap');
 html{
   cursor: url(cur.png),pointer;
 }
@@ -1317,7 +1317,7 @@ audio {
   border-radius: 20px;
   padding: 11px;
   text-transform: uppercase;
-  font-family: 'Charmonman', Arial, Helvetica, sans-serif;
+  font-family: 'Andada Pro', Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: #fff;
   background-color:   #ff6d9e ;
