@@ -137,6 +137,10 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
+		var audio = $('.song')[0];
+        audio.pause();
+		var audio = $('.song1')[0];
+        audio.play();
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(2000).promise().done(function(){
 			$('#light_candle').fadeIn('fast');
@@ -151,6 +155,7 @@ $('document').ready(function(){
 	});
 
 	$('#wish_message').click(function(){
+		
 		 vw = $(window).width()/2.5;
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9').stop();
 		$('#b1').attr('id','b11');
@@ -180,6 +185,10 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
+		var audio = $('.song1')[0];
+        audio.pause();
+		var audio = $('.song2')[0];
+        audio.play();
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
