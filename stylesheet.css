@@ -1095,6 +1095,11 @@ audio {
   color: #bf4136;
   text-shadow: 5px 5px 5px #fff;
   display: none;
+
+}
+#b0,
+#b00 {
+  background-image: url("b0.png");
 }
 #b1,
 #b11 {
@@ -1132,143 +1137,140 @@ audio {
 #b99 {
   background-image: url("b9.png");
 }
-#b10,
-#b1010 {
-  background-image: url("b10.png");
-}
+
 
 .balloons-rotate-behaviour-one {
   -webkit-animation: balloons_rotate_one linear 10s infinite;
-  -webkit-transform: rotate(15deg);
+  -webkit-transform: rotate(12deg);
   -moz-animation: balloons_rotate_one linear 10s infinite;
-  -moz-transform: rotate(15deg);
+  -moz-transform: rotate(12deg);
   -o-animation: balloons_rotate_one linear 10s infinite;
-  -o-transform: rotate(15deg);
+  -o-transform: rotate(12deg);
   -ms-animation: balloons_rotate_one linear 10s infinite;
-  -ms-transform: rotate(15deg);
+  -ms-transform: rotate(12deg);
   animation: balloons_rotate_one linear 10s infinite;
-  transform: rotate(15deg);
+  transform: rotate(12deg);
 }
 @-webkit-keyframes balloons_rotate_one {
   0% {
-    -webkit-transform: rotate(15deg);
+    -webkit-transform: rotate(12deg);
   }
   50% {
-    -webkit-transform: rotate(-15deg);
+    -webkit-transform: rotate(-12deg);
   }
   100% {
-    -webkit-transform: rotate(15deg);
+    -webkit-transform: rotate(12deg);
   }
 }
 @-moz-keyframes balloons_rotate_one {
   0% {
-    -moz-transform: rotate(15deg);
+    -moz-transform: rotate(12deg);
   }
   50% {
-    -moz-transform: rotate(-15deg);
+    -moz-transform: rotate(-12deg);
   }
   100% {
-    -moz-transform: rotate(15deg);
+    -moz-transform: rotate(12deg);
   }
 }
 @-o-keyframes balloons_rotate_one {
   0% {
-    -o-transform: rotate(15deg);
+    -o-transform: rotate(12deg);
   }
   50% {
-    -o-transform: rotate(-15deg);
+    -o-transform: rotate(-12deg);
   }
   100% {
-    -o-transform: rotate(15deg);
+    -o-transform: rotate(12deg);
   }
 }
 @-ms-keyframes balloons_rotate_one {
   0% {
-    -ms-transform: rotate(15deg);
+    -ms-transform: rotate(12deg);
   }
   50% {
-    -ms-transform: rotate(-15deg);
+    -ms-transform: rotate(-12deg);
   }
   100% {
-    -ms-transform: rotate(15deg);
+    -ms-transform: rotate(12deg);
   }
 }
 @keyframes balloons_rotate_one {
   0% {
-    transform: rotate(15deg);
+    transform: rotate(12deg);
   }
   50% {
-    transform: rotate(-15deg);
+    transform: rotate(-12deg);
   }
   100% {
-    transform: rotate(15deg);
+    transform: rotate(12deg);
   }
 }
 .balloons-rotate-behaviour-two {
   -webkit-animation: balloons_rotate_two linear 10s infinite;
-  -webkit-transform: rotate(-20deg);
+  -webkit-transform: rotate(-12deg);
   -moz-animation: balloons_rotate_two linear 10s infinite;
-  -moz-transform: rotate(-20deg);
+  -moz-transform: rotate(-12deg);
   -o-animation: balloons_rotate_two linear 10s infinite;
-  -o-transform: rotate(-20deg);
+  -o-transform: rotate(-12deg);
   -ms-animation: balloons_rotate_two linear 10s infinite;
-  -ms-transform: rotate(-20deg);
+  -ms-transform: rotate(-12deg);
   animation: balloons_rotate_two linear 10s infinite;
-  transform: rotate(-20deg);
+  transform: rotate(-12deg);
 }
 @-webkit-keyframes balloons_rotate_two {
   0% {
-    -webkit-transform: rotate(-20deg);
+    -webkit-transform: rotate(-12deg);
   }
   50% {
-    -webkit-transform: rotate(20deg);
+    -webkit-transform: rotate(12deg);
   }
   100% {
-    -webkit-transform: rotate(-20deg);
+    -webkit-transform: rotate(-12deg);
   }
 }
 @-moz-keyframes balloons_rotate_two {
   0% {
-    -moz-transform: rotate(-20deg);
+    -moz-transform: rotate(-12deg);
   }
   50% {
-    -moz-transform: rotate(20deg);
+    -moz-transform: rotate(12deg);
   }
   100% {
-    -moz-transform: rotate(-20deg);
+    -moz-transform: rotate(-12deg);
   }
 }
 @-o-keyframes balloons_rotate_two {
   0% {
-    -o-transform: rotate(-20deg);
+    -o-transform: rotate(-12deg);
   }
   50% {
-    -o-transform: rotate(20deg);
+    -o-transform: rotate(12deg);
   }
   100% {
-    -o-transform: rotate(-20deg);
+    -o-transform: rotate(-12deg);
   }
 }
 @-ms-keyframes balloons_rotate_two {
   0% {
-    -ms-transform: rotate(-20deg);
+    -ms-transform: rotate(-12deg);
   }
   50% {
-    -ms-transform: rotate(20deg);
+    -ms-transform: rotate(12deg);
   }
   100% {
-    -ms-transform: rotate(-20deg);
+    -ms-transform: rotate(-12deg);
   }
 }
 @keyframes balloons_rotate_two {
   0% {
-    transform: rotate(-20deg);
+    transform: rotate(-12deg);
   }
   50% {
-    transform: rotate(20deg);
+    transform: rotate(12deg);
   }
   100% {
-    transform: rotate(-20deg);
+    transform: rotate(-12deg);
   }
 }
 
